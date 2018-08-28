@@ -12,6 +12,7 @@ from pylexibank.dataset import Dataset as BaseDataset
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
+    id = 'dyenindoeuropean'
 
     def cmd_download(self, **kw):
         return
@@ -25,9 +26,9 @@ class Dataset(BaseDataset):
         langs = {l['NAME']: l['GLOTTOCODE'] for l in self.languages}
 
         with self.cldf as ds:
-            for mn, cognatesets in allforms.items():
+            for mn, cognatesets in sorted(allforms.items()):
                 ds.add_concept(ID=mn, Name=meanings[mn], Concepticon_ID=concepticon[mn])
-                for ccn, forms in cognatesets.items():
+                for ccn, forms in sorted(cognatesets.items()):
                     for ln, form in forms:
                         ds.add_language(
                             ID=ln,

@@ -16,16 +16,16 @@ Conceptlist in Concepticon: [Dyen-1992-200](http://concepticon.clld.org/contribu
 
 - **Varieties:** 95
 - **Concepts:** 200
-- **Lexemes:** 21,606
+- **Lexemes:** 21,638
 - **Synonymy:** 1.16
-- **Cognacy:** 14,286 cognates in 1,922 cognate sets
-- **Invalid lexemes:** 21,606
+- **Cognacy:** 14,287 cognates in 1,922 cognate sets
+- **Invalid lexemes:** 0
 - **Tokens:** 0
 - **Segments:** 0 (0 BIPA errors, 0 CTLS sound class errors, 0 CLTS modified)
 - **Inventory size (avg):** 0.00
 
 ## Possible Improvements:
 
-- Languages missing glottocodes: 1/95 (1.05%)
-- Entries missing sources: 21606/21606 (100.00%)
 
+
+- Entries missing sources: 21638/21638 (100.00%)
