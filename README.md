@@ -10,6 +10,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
+[![Build Status](https://travis-ci.org/lexibank/dyenindoeuropean.svg?branch=master)](https://travis-ci.org/lexibank/dyenindoeuropean)
 ![Glottolog: 99%](https://img.shields.io/badge/Glottolog-99%25-brightgreen.svg "Glottolog: 99%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
