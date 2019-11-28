@@ -1,96 +1,96 @@
-ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Family
-73,Ossetic,osse1245,,,,
-74,Afghan,nort2646,,,,
-59,Gujarati,guja1252,,,,
-58,Marathi,mara1378,,,,
-79,Wakhi,wakh1245,,,,
-40,Lithuanian ST,lith1251,,,,
-39,Lithuanian O,lith1251,,,,
-41,Latvian,latv1249,,,,
-92,SERBOCROATIAN P,,,,,
-54,Serbocroatian,serb1264,,,,
-46,Slovak,slov1269,,,,
-89,SLOVAK P,slov1269,,,,
-42,Slovenian,slov1268,,,,
-91,SLOVENIAN P,slov1268,,,,
-86,UKRAINIAN P,ukra1253,,,,
-85,RUSSIAN P,russ1263,,,,
-51,Russian,russ1263,,,,
-88,POLISH P,poli1260,,,,
-50,Polish,poli1260,,,,
-94,BULGARIAN P,bulg1262,,,,
-47,Czech E,czec1258,,,,
-93,MACEDONIAN P,mace1250,,,,
-53,Bulgarian,bulg1262,,,,
-45,Czech,czec1258,,,,
-90,CZECH P,czec1258,,,,
-43,Lusatian L,lowe1385,,,,
-44,Lusatian U,uppe1395,,,,
-87,BYELORUSSIAN P,bela1254,,,,
-52,Macedonian,mace1250,,,,
-48,Ukrainian,ukra1253,,,,
-49,Byelorussian,bela1254,,,,
-17,Sardinian N,nuor1238,,,,
-09,Vlach,arom1237,,,,
-18,Sardinian L,logu1236,,,,
-15,French Creole C,sain1246,,,,
-13,French,stan1290,,,,
-16,French Creole D,sain1246,,,,
-14,Walloon,wall1255,,,,
-12,Provencal,occi1239,,,,
-20,Spanish,stan1288,,,,
-23,Catalan,stan1289,,,,
-10,Italian,ital1282,,,,
-19,Sardinian C,camp1261,,,,
-11,Ladin,ladi1250,,,,
-08,Rumanian List,roma1327,,,,
-83,Albanian K,arva1236,,,,
-21,Portuguese ST,port1283,,,,
-22,Brazilian,braz1246,,,,
-38,Takitaki,sran1240,,,,
-30,Swedish Up,svea1239,,,,
-31,Swedish VL,nort2638,,,,
-24,German ST,stan1295,,,,
-35,Icelandic ST,icel1247,,,,
-34,Riksmal,norw1258,,,,
-32,Swedish List,swed1254,,,,
-33,Danish,dani1285,,,,
-36,Faroese,faro1244,,,,
-29,Frisian,east2288,,,,
-28,Flemish,vlaa1240,,,,
-25,Penn. Dutch,penn1240,,,,
-26,Dutch List,dutc1256,,,,
-27,Afrikaans,afri1274,,,,
-37,English ST,stan1293,,,,
-04,Welsh C,sout2673,,,,
-03,Welsh N,nort2668,,,,
-68,Greek Mod,mode1248,,,,
-66,Greek ML,aeol1234,,,,
-70,Greek K,kath1248,,,,
-67,Greek MD,mode1248,,,,
-69,Greek D,dimo1238,,,,
-01,Irish A,iris1253,,,,
-02,Irish B,iris1253,,,,
-07,Breton ST,bret1244,,,,
-06,Breton SE,vann1244,,,,
-05,Breton List,bret1244,,,,
-71,Armenian Mod,east2283,,,,
-72,Armenian List,nucl1235,,,,
-95,ALBANIAN,alba1267,,,,
-82,Albanian G,gheg1238,,,,
-84,Albanian C,arbe1236,,,,
-80,Albanian T,tosk1239,,,,
-81,Albanian Top,tosk1239,,,,
-76,Persian List,west2369,,,,
-77,Tadzik,taji1245,,,,
-75,Waziri,waci1238,,,,
-56,Singhalese,sinh1246,,,,
-63,Bengali,beng1280,,,,
-65,Khaskura,nepa1254,,,,
-64,Nepali List,nepa1254,,,,
-61,Lahnda,west2386,,,,
-62,Hindi,hind1269,,,,
-60,Panjabi ST,panj1256,,,,
-55,Gypsy Gk,gree1277,,,,
-57,Kashmiri,kash1277,,,,
-78,Baluchi,east2304,,,,
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family
+73,Ossetic,osse1245,Ossetic,,,,,Indo-European
+74,Afghan,nort2646,Northern Pashto,pbu,Eurasia,34.0,71.33,Indo-European
+59,Gujarati,guja1252,Gujarati,guj,Eurasia,22.687,71.0962,Indo-European
+58,Marathi,mara1378,Marathi,mar,Eurasia,17.9344,76.6665,Indo-European
+79,Wakhi,wakh1245,Wakhi,wbl,Eurasia,37.1768,73.9777,Indo-European
+40,Lithuanian ST,lith1251,Lithuanian,lit,Eurasia,55.1429,23.9601,Indo-European
+39,Lithuanian O,lith1251,Lithuanian,lit,Eurasia,55.1429,23.9601,Indo-European
+41,Latvian,latv1249,Latvian,lav,Eurasia,56.826108,24.309118,Indo-European
+92,SERBOCROATIAN P,,,,,,,
+54,Serbocroatian,serb1264,Serbian Standard,srp,Eurasia,44.3238,21.9192,Indo-European
+46,Slovak,slov1269,Slovak,slk,Eurasia,48.545705,18.78479,Indo-European
+89,SLOVAK P,slov1269,Slovak,slk,Eurasia,48.545705,18.78479,Indo-European
+42,Slovenian,slov1268,Slovenian,slv,Eurasia,46.2543,14.7766,Indo-European
+91,SLOVENIAN P,slov1268,Slovenian,slv,Eurasia,46.2543,14.7766,Indo-European
+86,UKRAINIAN P,ukra1253,Ukrainian,ukr,Eurasia,49.796,29.945,Indo-European
+85,RUSSIAN P,russ1263,Russian,rus,Eurasia,59.0,50.0,Indo-European
+51,Russian,russ1263,Russian,rus,Eurasia,59.0,50.0,Indo-European
+88,POLISH P,poli1260,Polish,pol,Eurasia,51.8439,18.6255,Indo-European
+50,Polish,poli1260,Polish,pol,Eurasia,51.8439,18.6255,Indo-European
+94,BULGARIAN P,bulg1262,Bulgarian,bul,Eurasia,43.3646,25.047,Indo-European
+47,Czech E,czec1258,Czech,ces,Eurasia,49.873398,15.10437,Indo-European
+93,MACEDONIAN P,mace1250,Macedonian,mkd,Eurasia,41.5957,21.7932,Indo-European
+53,Bulgarian,bulg1262,Bulgarian,bul,Eurasia,43.3646,25.047,Indo-European
+45,Czech,czec1258,Czech,ces,Eurasia,49.873398,15.10437,Indo-European
+90,CZECH P,czec1258,Czech,ces,Eurasia,49.873398,15.10437,Indo-European
+43,Lusatian L,lowe1385,Lower Sorbian,dsb,Eurasia,51.6621,13.9407,Indo-European
+44,Lusatian U,uppe1395,Upper Sorbian,hsb,Eurasia,51.2403,14.4098,Indo-European
+87,BYELORUSSIAN P,bela1254,Belarusian,bel,Eurasia,53.2307,25.6038,Indo-European
+52,Macedonian,mace1250,Macedonian,mkd,Eurasia,41.5957,21.7932,Indo-European
+48,Ukrainian,ukra1253,Ukrainian,ukr,Eurasia,49.796,29.945,Indo-European
+49,Byelorussian,bela1254,Belarusian,bel,Eurasia,53.2307,25.6038,Indo-European
+17,Sardinian N,nuor1238,Nuorese,,Eurasia,,,Indo-European
+09,Vlach,arom1237,Aromanian,rup,Eurasia,40.616,21.2,Indo-European
+18,Sardinian L,logu1236,Logudorese Sardinian,src,Eurasia,40.49,9.09957,Indo-European
+15,French Creole C,sain1246,Saint Lucian Creole French,acf,North America,15.3947,-61.3641,Indo-European
+13,French,stan1290,French,fra,Eurasia,48.0,2.0,Indo-European
+16,French Creole D,sain1246,Saint Lucian Creole French,acf,North America,15.3947,-61.3641,Indo-European
+14,Walloon,wall1255,Walloon,wln,Eurasia,50.2235,5.14509,Indo-European
+12,Provencal,occi1239,Occitan,oci,Eurasia,44.1415,6.82979,Indo-European
+20,Spanish,stan1288,Spanish,spa,Eurasia,40.4414,-1.11788,Indo-European
+23,Catalan,stan1289,Catalan,cat,Eurasia,41.453,1.569,Indo-European
+10,Italian,ital1282,Italian,ita,Eurasia,43.0464,12.6489,Indo-European
+19,Sardinian C,camp1261,Campidanese Sardinian,sro,Eurasia,39.0566,9.03935,Indo-European
+11,Ladin,ladi1250,Ladin,lld,Eurasia,46.60651,11.89498,Indo-European
+08,Rumanian List,roma1327,Romanian,ron,Eurasia,46.3913,24.2256,Indo-European
+83,Albanian K,arva1236,Arvanitika Albanian,aat,Eurasia,38.283,23.3703,Indo-European
+21,Portuguese ST,port1283,Portuguese,por,Eurasia,39.91,-8.1,Indo-European
+22,Brazilian,braz1246,Brazilian Portuguese,,Eurasia,,,Indo-European
+38,Takitaki,sran1240,Sranan Tongo,srn,South America,5.83,-55.33,Indo-European
+30,Swedish Up,svea1239,Sveamål,,Eurasia,,,Indo-European
+31,Swedish VL,nort2638,,,,,,
+24,German ST,stan1295,German,deu,Eurasia,48.649,12.4676,Indo-European
+35,Icelandic ST,icel1247,Icelandic,isl,Eurasia,63.4837,-19.0212,Indo-European
+34,Riksmal,norw1258,Norwegian,nor,Eurasia,59.92,10.71,Indo-European
+32,Swedish List,swed1254,Swedish,swe,Eurasia,59.800634,17.389526,Indo-European
+33,Danish,dani1285,Danish,dan,Eurasia,54.8655,9.36284,Indo-European
+36,Faroese,faro1244,Faroese,fao,Eurasia,62.0732,-6.88497,Indo-European
+29,Frisian,east2288,East Frisian Low Saxon,,Eurasia,52.9713,7.73549,Indo-European
+28,Flemish,vlaa1240,Western Flemish,vls,Eurasia,51.0754,3.11345,Indo-European
+25,Penn. Dutch,penn1240,Pennsylvania German,pdc,North America,40.030507,-76.3211,Indo-European
+26,Dutch List,dutc1256,Dutch,nld,Eurasia,52.0,5.0,Indo-European
+27,Afrikaans,afri1274,Afrikaans,afr,Africa,-22.0,30.0,Indo-European
+37,English ST,stan1293,English,eng,Eurasia,53.0,-1.0,Indo-European
+04,Welsh C,sout2673,Southern Welsh,,Eurasia,,,Indo-European
+03,Welsh N,nort2668,Northern Welsh,,Eurasia,,,Indo-European
+68,Greek Mod,mode1248,Modern Greek,ell,Eurasia,38.36,23.13,Indo-European
+66,Greek ML,aeol1234,Aeolic,,,,,Indo-European
+70,Greek K,kath1248,Katharevousa,,Eurasia,,,Indo-European
+67,Greek MD,mode1248,Modern Greek,ell,Eurasia,38.36,23.13,Indo-European
+69,Greek D,dimo1238,Dimotiki,,Eurasia,,,Indo-European
+01,Irish A,iris1253,Irish,gle,Eurasia,53.2186,-7.61509,Indo-European
+02,Irish B,iris1253,Irish,gle,Eurasia,53.2186,-7.61509,Indo-European
+07,Breton ST,bret1244,Breton,bre,Eurasia,48.2452,-3.78934,Indo-European
+06,Breton SE,vann1244,Vannetais,,Eurasia,,,Indo-European
+05,Breton List,bret1244,Breton,bre,Eurasia,48.2452,-3.78934,Indo-European
+71,Armenian Mod,east2283,,,,,,
+72,Armenian List,nucl1235,Eastern Armenian,hye,Eurasia,40.0,45.0,Indo-European
+95,ALBANIAN,alba1267,Albanian,sqi,Eurasia,,,Indo-European
+82,Albanian G,gheg1238,Gheg Albanian,aln,Eurasia,42.317,21.3837,Indo-European
+84,Albanian C,arbe1236,Arbëreshë Albanian,aae,Eurasia,38.911,16.7164,Indo-European
+80,Albanian T,tosk1239,Northern Tosk Albanian,als,Eurasia,41.0,20.0,Indo-European
+81,Albanian Top,tosk1239,Northern Tosk Albanian,als,Eurasia,41.0,20.0,Indo-European
+76,Persian List,west2369,Western Farsi,pes,Eurasia,32.9,53.3,Indo-European
+77,Tadzik,taji1245,Tajik,tgk,Eurasia,38.8213,68.5549,Indo-European
+75,Waziri,waci1238,Waciri,,Eurasia,,,Indo-European
+56,Singhalese,sinh1246,Sinhala,sin,Eurasia,8.0,81.0,Indo-European
+63,Bengali,beng1280,Bengali,ben,Eurasia,24.0,90.0,Indo-European
+65,Khaskura,nepa1254,Nepali,npi,Eurasia,28.0,85.0,Indo-European
+64,Nepali List,nepa1254,Nepali,npi,Eurasia,28.0,85.0,Indo-European
+61,Lahnda,west2386,Western Panjabi,pnb,Eurasia,30.0948,75.3474,Indo-European
+62,Hindi,hind1269,Hindi,hin,Eurasia,25.0,77.0,Indo-European
+60,Panjabi ST,panj1256,Eastern Panjabi,pan,Eurasia,30.0368,75.6702,Indo-European
+55,Gypsy Gk,gree1277,Pyrgos-Peloponnese Romani,,Eurasia,,,Indo-European
+57,Kashmiri,kash1277,Kashmiri,kas,Eurasia,34.166825,74.330455,Indo-European
+78,Baluchi,east2304,Eastern Balochi,bgp,Eurasia,28.0,62.0,Indo-European

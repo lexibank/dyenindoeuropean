@@ -1,51 +1,57 @@
-# coding=utf-8
-from __future__ import unicode_literals, print_function
 import re
-from collections import defaultdict, Counter
+import pathlib
+import collections
 
 from clldutils.misc import nfilter
 
-from clldutils.path import Path
-from pylexibank.dataset import Metadata
-from pylexibank.dataset import Dataset as BaseDataset
+from pylexibank import Dataset as BaseDataset
 
 
 class Dataset(BaseDataset):
-    dir = Path(__file__).parent
+    dir = pathlib.Path(__file__).parent
     id = 'dyenindoeuropean'
 
-    def cmd_download(self, **kw):
-        return
+    def cmd_makecldf(self, args):
+        args.writer.add_sources("""
+@article{Dyen1992,
+    author = {Dyen, Isidore and Kruskal, Joseph B. and Black, Paul},
+    journal = {Transactions of the American Philosophical Society},
+    number = {5},
+    pages = {iii-132},
+    title = {An Indoeuropean classification},
+    volume = {82},
+    year = {1992}
+}
+""")
 
-    def cmd_install(self, **kw):
         concepticon = {
             c.number: c.concepticon_id
-            for c in self.conceptlist.concepts.values()}
+            for c in self.conceptlists[0].concepts.values()}
         varieties, meanings, allforms, rels = parse(self)
         
         langs = {l['NAME']: l['GLOTTOCODE'] for l in self.languages}
 
-        with self.cldf as ds:
-            for mn, cognatesets in sorted(allforms.items()):
-                ds.add_concept(ID=mn, Name=meanings[mn], Concepticon_ID=concepticon[mn])
-                for ccn, forms in sorted(cognatesets.items()):
-                    for ln, form in forms:
-                        ds.add_language(
-                            ID=ln,
-                            Name=varieties[ln]['name'].strip(),
-                            Glottocode=langs[varieties[ln]['name'].strip()])
-                        ffs = [ff.strip().lower() for ff in form.split(',')]
-                        for i, f in enumerate(nfilter(ffs)):
-                            for row in ds.add_lexemes(
-                                    Language_ID=ln,
-                                    Parameter_ID=mn,
-                                    Value=f,
-                                    Cognacy='%s-%s' % (mn, ccn)):
-                                if len(ffs) == 1 and \
-                                        (2 <= int(ccn) <= 99 or 200 <= int(ccn) <= 399):
-                                    # most conservative cognacy judgements only
-                                    ds.add_cognate(
-                                        lexeme=row, Cognateset_ID='%s-%s' % (mn, ccn))
+        for mn, cognatesets in sorted(allforms.items()):
+            args.writer.add_concept(ID=mn, Name=meanings[mn], Concepticon_ID=concepticon[mn])
+            for ccn, forms in sorted(cognatesets.items()):
+                for ln, form in forms:
+                    args.writer.add_language(
+                        ID=ln,
+                        Name=varieties[ln]['name'].strip(),
+                        Glottocode=langs[varieties[ln]['name'].strip()])
+                    ffs = [ff.strip().lower() for ff in form.split(',')]
+                    for i, f in enumerate(nfilter(ffs)):
+                        for row in args.writer.add_lexemes(
+                                Language_ID=ln,
+                                Parameter_ID=mn,
+                                Value=f,
+                                Source=['Dyen1992'],
+                                Cognacy='%s-%s' % (mn, ccn)):
+                            if len(ffs) == 1 and \
+                                    (2 <= int(ccn) <= 99 or 200 <= int(ccn) <= 399):
+                                # most conservative cognacy judgements only
+                                args.writer.add_cognate(
+                                    lexeme=row, Cognateset_ID='%s-%s' % (mn, ccn))
 
 
 HEADER = re.compile('a (?P<number>[0-9]{3}) (?P<label>.+)')
@@ -95,7 +101,7 @@ def relations_and_forms(lines):
 
 def parse(dataset):
     lines, in_data, varieties, meanings = [], False, {}, {}
-    for line in dataset.raw.read('iedata-with-intro.txt').split('\n'):
+    for line in dataset.raw_dir.read('iedata-with-intro.txt').split('\n'):
         if in_data:
             lines.append(line)
         else:
@@ -105,8 +111,9 @@ def parse(dataset):
         if line == '5. THE DATA':
             in_data = True
 
-    meanings_per_variety = Counter()
-    rels, forms = defaultdict(set), defaultdict(lambda: defaultdict(list))
+    meanings_per_variety = collections.Counter()
+    rels, forms = collections.defaultdict(set), \
+                  collections.defaultdict(lambda: collections.defaultdict(list))
     for md, block in blocks(lines, HEADER):
         mn = md['number']
         meanings[mn] = md['label']
