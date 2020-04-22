@@ -7,6 +7,7 @@
         "http://concepticon.clld.org/contributions/Dyen-1992-200"
     ],
     "dc:isVersionOf": null,
+    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Dyen's \"An Indoeuropean Classification: A lexicostatistical experiment\" from 1992",
@@ -16,7 +17,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/dyenindoeuropean",
-            "dc:created": "4cd22ed"
+            "dc:created": "d290d95"
         },
         {
             "rdf:type": "prov:Entity",

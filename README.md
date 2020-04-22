@@ -4,6 +4,8 @@ Cite the source dataset as
 
 > Dyen I, Kruskal JB, Black P (1992) An Indoeuropean Classification: A lexicostatistical experiment. Trans Am Philos Soc 82(5):1–132.
 
+This dataset is licensed under a https://creativecommons.org/licenses/by-nc/4.0/ license
+
 
 Conceptlists in Concepticon:
 - [Dyen-1992-200](https://concepticon.clld.org/contributions/Dyen-1992-200)
