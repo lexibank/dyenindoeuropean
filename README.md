@@ -1,4 +1,4 @@
-# An Indoeuropean Classification: A lexicostatistical experiment
+# CLDF dataset derived from Dyen's "An Indoeuropean Classification: A lexicostatistical experiment" from 1992
 
 Cite the source dataset as
 
@@ -22,3 +22,11 @@ Conceptlists in Concepticon:
 - **Synonymy:** 1.16
 - **Cognacy:** 14,752 cognates in 2,388 cognate sets (466 singletons)
 - **Cognate Diversity:** 0.10
+
+# Contributors
+
+Name | GitHub user | Role
+ --- | --- | --- 
+Robert Forkel | @xrotwang | maintainer
+
+

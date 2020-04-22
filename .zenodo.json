@@ -1,0 +1,21 @@
+{
+    "title": "CLDF dataset derived from Dyen's \"An Indoeuropean Classification: A lexicostatistical experiment\" from 1992",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Robert Forkel"
+        }
+    ],
+    "contributors": [],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dyen I, Kruskal JB, Black P (1992) An Indoeuropean Classification: A lexicostatistical experiment. Trans Am Philos Soc 82(5):1\u2013132.</p>\n</blockquote>"
+}
