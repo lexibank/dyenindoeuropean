@@ -7,7 +7,7 @@
         "http://concepticon.clld.org/contributions/Dyen-1992-200"
     ],
     "dc:isVersionOf": null,
-    "dc:license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Dyen's \"An Indoeuropean Classification: A lexicostatistical experiment\" from 1992",
@@ -17,19 +17,19 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/dyenindoeuropean",
-            "dc:created": "d290d95"
+            "dc:created": "84033ec"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.2.1"
+            "dc:created": "v4.3"
         },
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0"
+            "dc:created": "v2.4.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -41,7 +41,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.7.3"
+            "dc:description": "3.8.5"
         },
         {
             "dc:title": "python-packages",

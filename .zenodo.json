@@ -5,16 +5,18 @@
         "cldf:Wordlist",
         "linguistics"
     ],
-    "creators": [
+    "creators": [],
+    "contributors": [
         {
-            "name": "Robert Forkel"
+            "name": "Robert Forkel",
+            "type": "Other"
+        },
+        {
+            "name": "Christoph Rzymski",
+            "type": "Other"
         }
     ],
-    "contributors": [],
     "communities": [
-        {
-            "identifier": "lexibank"
-        },
         {
             "identifier": "lexibank"
         }
@@ -22,6 +24,6 @@
     "upload_type": "dataset",
     "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dyen I, Kruskal JB, Black P (1992) An Indoeuropean Classification: A lexicostatistical experiment. Trans Am Philos Soc 82(5):1\u2013132.</p>\n</blockquote>",
     "license": {
-        "id": "CC-BY-NC-4.0"
+        "id": "CC-BY-4.0"
     }
 }
