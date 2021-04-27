@@ -19,7 +19,7 @@ class Dataset(BaseDataset):
 
     def cmd_makecldf(self, args):
         args.writer.add_sources()
-        langs = {lang['Name']: lang['Glottocode'] for lang in self.languages}
+        langs = {lang["Name"]: lang["Glottocode"] for lang in self.languages}
 
         concepticon = {c.number: c.concepticon_id for c in self.conceptlists[0].concepts.values()}
         varieties, meanings, allforms, rels = parse(self)
@@ -45,7 +45,7 @@ class Dataset(BaseDataset):
                             if len(ffs) == 1 and (2 <= int(ccn) <= 99 or 200 <= int(ccn) <= 399):
                                 # most conservative cognacy judgements only
                                 args.writer.add_cognate(
-                                    lexeme=row, Cognateset_ID="%s-%s" % (mn, ccn)
+                                    lexeme=row, Cognateset_ID="%s-%s" % (mn, ccn), Source="Dyen1992"
                                 )
 
 
