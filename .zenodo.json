@@ -5,7 +5,17 @@
         "cldf:Wordlist",
         "linguistics"
     ],
-    "creators": [],
+    "creators": [
+        {
+            "name": "Isidore Dyen"
+        },
+        {
+            "name": "Joseph B. Kruskal"
+        },
+        {
+            "name": "Paul Black"
+        }
+    ],
     "contributors": [
         {
             "name": "Robert Forkel",
@@ -22,7 +32,7 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dyen I, Kruskal JB, Black P (1992) An Indoeuropean Classification: A lexicostatistical experiment. Trans Am Philos Soc 82(5):1\u2013132.</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Dyen, Isidore and Kruskal, Joseph B. and Black, Paul (1992) An Indoeuropean Classification: A lexicostatistical experiment. Trans Am Philos Soc 82(5): 1-\u2013132.</p>\n</blockquote>",
     "license": {
         "id": "CC-BY-4.0"
     }

@@ -2,7 +2,7 @@
 
 Cite the source dataset as
 
-> Dyen I, Kruskal JB, Black P (1992) An Indoeuropean Classification: A lexicostatistical experiment. Trans Am Philos Soc 82(5):1–132.
+> Dyen, Isidore and Kruskal, Joseph B. and Black, Paul (1992) An Indoeuropean Classification: A lexicostatistical experiment. Trans Am Philos Soc 82(5): 1-–132.
 
 This dataset is licensed under a CC-BY-4.0 license
 
@@ -12,7 +12,7 @@ Conceptlists in Concepticon:
 ## Statistics
 
 
-[![Build Status](https://travis-ci.org/lexibank/dyenindoeuropean.svg?branch=master)](https://travis-ci.org/lexibank/dyenindoeuropean)
+[![CLDF validation](https://github.com/lexibank/dyenindoeuropean/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/dyenindoeuropean/actions?query=workflow%3ACLDF-validation)
 ![Glottolog: 100%](https://img.shields.io/badge/Glottolog-100%25-brightgreen.svg "Glottolog: 100%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
@@ -29,6 +29,9 @@ Conceptlists in Concepticon:
 
 Name | GitHub user | Description | Role
  --- | --- | --- | ---
+Isidore Dyen | | | Author
+Joseph B. Kruskal | | | Author
+Paul Black | | | Author
 Robert Forkel | @xrotwang | code | Other
 Christoph Rzymski | @chrzyki | code, patron | Other
 
